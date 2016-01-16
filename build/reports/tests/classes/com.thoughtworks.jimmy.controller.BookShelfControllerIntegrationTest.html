@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.thoughtworks.jimmy.controller.html">com.thoughtworks.jimmy.controller</a> &gt; BookShelfControllerIntegrationTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">10</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">1</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.908s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox skipped" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="skipped">should_add_book_conflict_when_book_already_exists</td>
+<td>-</td>
+<td class="skipped">ignored</td>
+</tr>
+<tr>
+<td class="success">should_be_able_to_add_book_to_shelf</td>
+<td>0.295s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">should_be_able_to_delete_book_from_shelf</td>
+<td>0.037s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">should_be_able_to_update_book_to_shelf</td>
+<td>0.033s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">should_find_category_of_the_book_when_given_book_isbn</td>
+<td>0.027s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">should_not_be_able_to_update_book_to_shelf_when_isbn_is_not_same</td>
+<td>0.031s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">should_now_be_able_to_delete_book_from_shelf_when_give_invalid_isbn</td>
+<td>0.063s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">should_search_book_by_category_name</td>
+<td>0.267s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">should_search_book_by_isbn_successfully</td>
+<td>0.736s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">should_search_book_by_title_fuzzily</td>
+<td>0.419s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>18:00:27.203 [Test worker] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest]
+18:00:27.220 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:00:27.224 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:00:27.237 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest] from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+18:00:27.256 [Test worker] DEBUG o.s.t.c.w.WebTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@511493b3 declaringClass = 'com.thoughtworks.jimmy.SpringBootWebApplicationTests', classes = '{class com.thoughtworks.jimmy.SpringBootWebApplication}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+18:00:27.264 [Test worker] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.thoughtworks.jimmy.SpringBootWebApplicationTests]: class path resource [com/thoughtworks/jimmy/SpringBootWebApplicationTests-context.xml] does not exist
+18:00:27.265 [Test worker] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.thoughtworks.jimmy.SpringBootWebApplicationTests]: class path resource [com/thoughtworks/jimmy/SpringBootWebApplicationTestsContext.groovy] does not exist
+18:00:27.265 [Test worker] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.thoughtworks.jimmy.SpringBootWebApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:00:27.269 [Test worker] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest]
+18:00:27.273 [Test worker] DEBUG o.s.t.c.w.WebTestContextBootstrapper - @TestExecutionListeners is not present for class [com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest]: using defaults.
+18:00:27.289 [Test worker] INFO  o.s.t.c.w.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+18:00:27.311 [Test worker] INFO  o.s.t.c.w.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@413d2f14, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@671d162d, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@74d0387, org.springframework.test.context.support.DirtiesContextTestExecutionListener@71689dc7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@59054971, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@56a68002]
+18:00:27.315 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest]
+18:00:27.317 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest]
+18:00:27.318 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest]
+18:00:27.319 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest]
+18:00:27.323 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@958efe6 testClass = BookShelfControllerIntegrationTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@48cc5e65 testClass = BookShelfControllerIntegrationTest, locations = '{}', classes = '{class com.thoughtworks.jimmy.SpringBootWebApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+18:00:27.325 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest]
+18:00:27.325 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest]
+18:00:27.462 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+18:00:27.464 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+18:00:27.464 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+18:00:27.466 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.0.RELEASE)
+
+2016-01-13 18:00:28.003  INFO 8651 --- [    Test worker] t.j.c.BookShelfControllerIntegrationTest : Starting BookShelfControllerIntegrationTest on idolice-AWO-XiaoAi with PID 8651 (/home/idolice/Documents/thwo-bookshelf2/build/classes/test started by idolice in /home/idolice/Documents/thwo-bookshelf2)
+2016-01-13 18:00:28.004  INFO 8651 --- [    Test worker] t.j.c.BookShelfControllerIntegrationTest : No profiles are active
+2016-01-13 18:00:28.118  INFO 8651 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5b21cd8b: startup date [Wed Jan 13 18:00:28 CST 2016]; root of context hierarchy
+2016-01-13 18:00:30.005  INFO 8651 --- [    Test worker] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2016-01-13 18:00:31.014  INFO 8651 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$85eb0571] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-01-13 18:00:31.621  INFO 8651 --- [    Test worker] o.f.core.internal.util.VersionPrinter    : Flyway 3.2.1 by Boxfuse
+2016-01-13 18:00:32.253  INFO 8651 --- [    Test worker] o.f.c.i.dbsupport.DbSupportFactory       : Database: jdbc:mysql://localhost:3306/bookshelf (MySQL 5.5)
+2016-01-13 18:00:32.322  INFO 8651 --- [    Test worker] o.f.core.internal.command.DbValidate     : Validated 5 migrations (execution time 00:00.053s)
+2016-01-13 18:00:32.401  INFO 8651 --- [    Test worker] o.f.core.internal.command.DbMigrate      : Current version of schema `bookshelf`: 2015.12.16.23.55
+2016-01-13 18:00:32.401  WARN 8651 --- [    Test worker] o.f.core.internal.command.DbMigrate      : outOfOrder mode is active. Migration of schema `bookshelf` may not be reproducible.
+2016-01-13 18:00:32.404  INFO 8651 --- [    Test worker] o.f.core.internal.command.DbMigrate      : Schema `bookshelf` is up to date. No migration necessary.
+2016-01-13 18:00:32.637  INFO 8651 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2016-01-13 18:00:32.675  INFO 8651 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2016-01-13 18:00:32.783  INFO 8651 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.11.Final}
+2016-01-13 18:00:32.786  INFO 8651 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2016-01-13 18:00:32.789  INFO 8651 --- [    Test worker] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2016-01-13 18:00:33.139  INFO 8651 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2016-01-13 18:00:33.291  INFO 8651 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2016-01-13 18:00:33.299  INFO 8651 --- [    Test worker] o.h.e.jdbc.internal.LobCreatorBuilder    : HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2016-01-13 18:00:33.418  INFO 8651 --- [    Test worker] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2016-01-13 18:00:33.422  WARN 8651 --- [    Test worker] org.hibernate.cfg.SettingsFactory        : Unrecognized value for &quot;hibernate.hbm2ddl.auto&quot;: create_drop
+2016-01-13 18:00:35.523  INFO 8651 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5b21cd8b: startup date [Wed Jan 13 18:00:28 CST 2016]; root of context hierarchy
+2016-01-13 18:00:35.619  INFO 8651 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/books/title/{title}],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.queryByTitle(java.lang.String)
+2016-01-13 18:00:35.621  INFO 8651 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/books/category/{categoryName}],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.queryByCategoryName(java.lang.String)
+2016-01-13 18:00:35.621  INFO 8651 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[GET]}&quot; onto public com.thoughtworks.jimmy.entity.BookEntity com.thoughtworks.jimmy.controller.BookShelfController.get(java.lang.String)
+2016-01-13 18:00:35.622  INFO 8651 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[PUT]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.update(java.lang.String,com.thoughtworks.jimmy.entity.BookEntity)
+2016-01-13 18:00:35.622  INFO 8651 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[DELETE]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.delete(java.lang.String)
+2016-01-13 18:00:35.623  INFO 8651 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/books],methods=[POST]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.save(com.thoughtworks.jimmy.entity.BookEntity)
+2016-01-13 18:00:35.624  INFO 8651 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/books],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.query()
+2016-01-13 18:00:35.625  INFO 8651 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/]}&quot; onto public com.thoughtworks.jimmy.model.Health com.thoughtworks.jimmy.controller.HealthController.health()
+2016-01-13 18:00:35.629  INFO 8651 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2016-01-13 18:00:35.630  INFO 8651 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-01-13 18:00:35.636  INFO 8651 --- [    Test worker] o.s.w.s.c.a.WebMvcConfigurerAdapter      : Adding welcome page: ServletContext resource [/index.html]
+2016-01-13 18:00:35.648  INFO 8651 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2016-01-13 18:00:35.663  INFO 8651 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-01-13 18:00:35.663  INFO 8651 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-01-13 18:00:35.711  INFO 8651 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-01-13 18:00:36.194  INFO 8651 --- [    Test worker] t.j.c.BookShelfControllerIntegrationTest : Started BookShelfControllerIntegrationTest in 8.713 seconds (JVM running for 10.242)
+2016-01-13 18:00:36.516  INFO 8651 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@958efe6 testClass = BookShelfControllerIntegrationTest, testInstance = com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest@564a9d60, testMethod = should_search_book_by_isbn_successfully@BookShelfControllerIntegrationTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@48cc5e65 testClass = BookShelfControllerIntegrationTest, locations = '{}', classes = '{class com.thoughtworks.jimmy.SpringBootWebApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@7cf92599]; rollback [true]
+2016-01-13 18:00:36.596  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/title/{title}],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.queryByTitle(java.lang.String)
+2016-01-13 18:00:36.596  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/category/{categoryName}],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.queryByCategoryName(java.lang.String)
+2016-01-13 18:00:36.597  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[GET]}&quot; onto public com.thoughtworks.jimmy.entity.BookEntity com.thoughtworks.jimmy.controller.BookShelfController.get(java.lang.String)
+2016-01-13 18:00:36.597  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[PUT]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.update(java.lang.String,com.thoughtworks.jimmy.entity.BookEntity)
+2016-01-13 18:00:36.598  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[DELETE]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.delete(java.lang.String)
+2016-01-13 18:00:36.598  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books],methods=[POST]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.save(com.thoughtworks.jimmy.entity.BookEntity)
+2016-01-13 18:00:36.599  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.query()
+2016-01-13 18:00:36.613  INFO 8651 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@17576725
+2016-01-13 18:00:36.638  INFO 8651 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-01-13 18:00:36.638  INFO 8651 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-01-13 18:00:36.639  INFO 8651 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 1 ms
+Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.category_code as category3_0_0_, bookentity0_.price as price4_0_0_, bookentity0_.title as title5_0_0_ from wo_book bookentity0_ where bookentity0_.isbn=?
+2016-01-13 18:00:37.172  INFO 8651 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test context [DefaultTestContext@958efe6 testClass = BookShelfControllerIntegrationTest, testInstance = com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest@564a9d60, testMethod = should_search_book_by_isbn_successfully@BookShelfControllerIntegrationTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@48cc5e65 testClass = BookShelfControllerIntegrationTest, locations = '{}', classes = '{class com.thoughtworks.jimmy.SpringBootWebApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]].
+2016-01-13 18:00:37.176  INFO 8651 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@958efe6 testClass = BookShelfControllerIntegrationTest, testInstance = com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest@59f72913, testMethod = should_now_be_able_to_delete_book_from_shelf_when_give_invalid_isbn@BookShelfControllerIntegrationTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@48cc5e65 testClass = BookShelfControllerIntegrationTest, locations = '{}', classes = '{class com.thoughtworks.jimmy.SpringBootWebApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@7cf92599]; rollback [true]
+2016-01-13 18:00:37.179  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/title/{title}],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.queryByTitle(java.lang.String)
+2016-01-13 18:00:37.179  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/category/{categoryName}],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.queryByCategoryName(java.lang.String)
+2016-01-13 18:00:37.179  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[GET]}&quot; onto public com.thoughtworks.jimmy.entity.BookEntity com.thoughtworks.jimmy.controller.BookShelfController.get(java.lang.String)
+2016-01-13 18:00:37.180  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[PUT]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.update(java.lang.String,com.thoughtworks.jimmy.entity.BookEntity)
+2016-01-13 18:00:37.180  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[DELETE]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.delete(java.lang.String)
+2016-01-13 18:00:37.180  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books],methods=[POST]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.save(com.thoughtworks.jimmy.entity.BookEntity)
+2016-01-13 18:00:37.181  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.query()
+2016-01-13 18:00:37.192  INFO 8651 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@6c72c6a9
+2016-01-13 18:00:37.195  INFO 8651 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-01-13 18:00:37.195  INFO 8651 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-01-13 18:00:37.196  INFO 8651 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 1 ms
+Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.category_code as category3_0_0_, bookentity0_.price as price4_0_0_, bookentity0_.title as title5_0_0_ from wo_book bookentity0_ where bookentity0_.isbn=?
+Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.category_code as category3_0_0_, bookentity0_.price as price4_0_0_, bookentity0_.title as title5_0_0_ from wo_book bookentity0_ where bookentity0_.isbn=?
+Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.category_code as category3_0_0_, bookentity0_.price as price4_0_0_, bookentity0_.title as title5_0_0_ from wo_book bookentity0_ where bookentity0_.isbn=?
+Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.category_code as category3_0_0_, bookentity0_.price as price4_0_0_, bookentity0_.title as title5_0_0_ from wo_book bookentity0_ where bookentity0_.isbn=?
+2016-01-13 18:00:37.236  INFO 8651 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test context [DefaultTestContext@958efe6 testClass = BookShelfControllerIntegrationTest, testInstance = com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest@59f72913, testMethod = should_now_be_able_to_delete_book_from_shelf_when_give_invalid_isbn@BookShelfControllerIntegrationTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@48cc5e65 testClass = BookShelfControllerIntegrationTest, locations = '{}', classes = '{class com.thoughtworks.jimmy.SpringBootWebApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]].
+2016-01-13 18:00:37.239  INFO 8651 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@958efe6 testClass = BookShelfControllerIntegrationTest, testInstance = com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest@2c01bcdd, testMethod = should_search_book_by_title_fuzzily@BookShelfControllerIntegrationTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@48cc5e65 testClass = BookShelfControllerIntegrationTest, locations = '{}', classes = '{class com.thoughtworks.jimmy.SpringBootWebApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@7cf92599]; rollback [true]
+2016-01-13 18:00:37.242  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/title/{title}],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.queryByTitle(java.lang.String)
+2016-01-13 18:00:37.242  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/category/{categoryName}],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.queryByCategoryName(java.lang.String)
+2016-01-13 18:00:37.242  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[GET]}&quot; onto public com.thoughtworks.jimmy.entity.BookEntity com.thoughtworks.jimmy.controller.BookShelfController.get(java.lang.String)
+2016-01-13 18:00:37.242  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[PUT]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.update(java.lang.String,com.thoughtworks.jimmy.entity.BookEntity)
+2016-01-13 18:00:37.242  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[DELETE]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.delete(java.lang.String)
+2016-01-13 18:00:37.243  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books],methods=[POST]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.save(com.thoughtworks.jimmy.entity.BookEntity)
+2016-01-13 18:00:37.243  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.query()
+2016-01-13 18:00:37.255  INFO 8651 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@223799e4
+2016-01-13 18:00:37.260  INFO 8651 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-01-13 18:00:37.260  INFO 8651 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-01-13 18:00:37.261  INFO 8651 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 1 ms
+Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.category_code as category3_0_0_, bookentity0_.price as price4_0_0_, bookentity0_.title as title5_0_0_ from wo_book bookentity0_ where bookentity0_.isbn=?
+Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.category_code as category3_0_0_, bookentity0_.price as price4_0_0_, bookentity0_.title as title5_0_0_ from wo_book bookentity0_ where bookentity0_.isbn=?
+Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.category_code as category3_0_0_, bookentity0_.price as price4_0_0_, bookentity0_.title as title5_0_0_ from wo_book bookentity0_ where bookentity0_.isbn=?
+Hibernate: insert into wo_book (author, category_code, price, title, isbn) values (?, ?, ?, ?, ?)
+Hibernate: insert into wo_book (author, category_code, price, title, isbn) values (?, ?, ?, ?, ?)
+Hibernate: insert into wo_book (author, category_code, price, title, isbn) values (?, ?, ?, ?, ?)
+Hibernate: select bookentity0_.isbn as isbn1_0_, bookentity0_.author as author2_0_, bookentity0_.category_code as category3_0_, bookentity0_.price as price4_0_, bookentity0_.title as title5_0_ from wo_book bookentity0_ where bookentity0_.title like ?
+2016-01-13 18:00:37.657  INFO 8651 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test context [DefaultTestContext@958efe6 testClass = BookShelfControllerIntegrationTest, testInstance = com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest@2c01bcdd, testMethod = should_search_book_by_title_fuzzily@BookShelfControllerIntegrationTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@48cc5e65 testClass = BookShelfControllerIntegrationTest, locations = '{}', classes = '{class com.thoughtworks.jimmy.SpringBootWebApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]].
+2016-01-13 18:00:37.661  INFO 8651 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@958efe6 testClass = BookShelfControllerIntegrationTest, testInstance = com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest@6a1052ae, testMethod = should_be_able_to_delete_book_from_shelf@BookShelfControllerIntegrationTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@48cc5e65 testClass = BookShelfControllerIntegrationTest, locations = '{}', classes = '{class com.thoughtworks.jimmy.SpringBootWebApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@7cf92599]; rollback [true]
+2016-01-13 18:00:37.664  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/title/{title}],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.queryByTitle(java.lang.String)
+2016-01-13 18:00:37.664  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/category/{categoryName}],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.queryByCategoryName(java.lang.String)
+2016-01-13 18:00:37.665  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[GET]}&quot; onto public com.thoughtworks.jimmy.entity.BookEntity com.thoughtworks.jimmy.controller.BookShelfController.get(java.lang.String)
+2016-01-13 18:00:37.665  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[PUT]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.update(java.lang.String,com.thoughtworks.jimmy.entity.BookEntity)
+2016-01-13 18:00:37.666  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[DELETE]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.delete(java.lang.String)
+2016-01-13 18:00:37.666  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books],methods=[POST]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.save(com.thoughtworks.jimmy.entity.BookEntity)
+2016-01-13 18:00:37.666  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.query()
+2016-01-13 18:00:37.677  INFO 8651 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@5b18a9b6
+2016-01-13 18:00:37.681  INFO 8651 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-01-13 18:00:37.681  INFO 8651 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-01-13 18:00:37.681  INFO 8651 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.category_code as category3_0_0_, bookentity0_.price as price4_0_0_, bookentity0_.title as title5_0_0_ from wo_book bookentity0_ where bookentity0_.isbn=?
+Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.category_code as category3_0_0_, bookentity0_.price as price4_0_0_, bookentity0_.title as title5_0_0_ from wo_book bookentity0_ where bookentity0_.isbn=?
+Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.category_code as category3_0_0_, bookentity0_.price as price4_0_0_, bookentity0_.title as title5_0_0_ from wo_book bookentity0_ where bookentity0_.isbn=?
+2016-01-13 18:00:37.694  INFO 8651 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test context [DefaultTestContext@958efe6 testClass = BookShelfControllerIntegrationTest, testInstance = com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest@6a1052ae, testMethod = should_be_able_to_delete_book_from_shelf@BookShelfControllerIntegrationTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@48cc5e65 testClass = BookShelfControllerIntegrationTest, locations = '{}', classes = '{class com.thoughtworks.jimmy.SpringBootWebApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]].
+2016-01-13 18:00:37.697  INFO 8651 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@958efe6 testClass = BookShelfControllerIntegrationTest, testInstance = com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest@7a466653, testMethod = should_be_able_to_add_book_to_shelf@BookShelfControllerIntegrationTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@48cc5e65 testClass = BookShelfControllerIntegrationTest, locations = '{}', classes = '{class com.thoughtworks.jimmy.SpringBootWebApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@7cf92599]; rollback [true]
+2016-01-13 18:00:37.701  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/title/{title}],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.queryByTitle(java.lang.String)
+2016-01-13 18:00:37.715  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/category/{categoryName}],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.queryByCategoryName(java.lang.String)
+2016-01-13 18:00:37.715  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[GET]}&quot; onto public com.thoughtworks.jimmy.entity.BookEntity com.thoughtworks.jimmy.controller.BookShelfController.get(java.lang.String)
+2016-01-13 18:00:37.716  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[PUT]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.update(java.lang.String,com.thoughtworks.jimmy.entity.BookEntity)
+2016-01-13 18:00:37.716  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[DELETE]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.delete(java.lang.String)
+2016-01-13 18:00:37.716  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books],methods=[POST]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.save(com.thoughtworks.jimmy.entity.BookEntity)
+2016-01-13 18:00:37.717  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.query()
+2016-01-13 18:00:37.727  INFO 8651 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@5c88d197
+2016-01-13 18:00:37.732  INFO 8651 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-01-13 18:00:37.732  INFO 8651 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-01-13 18:00:37.732  INFO 8651 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.category_code as category3_0_0_, bookentity0_.price as price4_0_0_, bookentity0_.title as title5_0_0_ from wo_book bookentity0_ where bookentity0_.isbn=?
+2016-01-13 18:00:37.991  INFO 8651 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test context [DefaultTestContext@958efe6 testClass = BookShelfControllerIntegrationTest, testInstance = com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest@7a466653, testMethod = should_be_able_to_add_book_to_shelf@BookShelfControllerIntegrationTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@48cc5e65 testClass = BookShelfControllerIntegrationTest, locations = '{}', classes = '{class com.thoughtworks.jimmy.SpringBootWebApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]].
+2016-01-13 18:00:37.994  INFO 8651 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@958efe6 testClass = BookShelfControllerIntegrationTest, testInstance = com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest@60d766c9, testMethod = should_not_be_able_to_update_book_to_shelf_when_isbn_is_not_same@BookShelfControllerIntegrationTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@48cc5e65 testClass = BookShelfControllerIntegrationTest, locations = '{}', classes = '{class com.thoughtworks.jimmy.SpringBootWebApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@7cf92599]; rollback [true]
+2016-01-13 18:00:37.997  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/title/{title}],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.queryByTitle(java.lang.String)
+2016-01-13 18:00:37.997  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/category/{categoryName}],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.queryByCategoryName(java.lang.String)
+2016-01-13 18:00:37.998  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[GET]}&quot; onto public com.thoughtworks.jimmy.entity.BookEntity com.thoughtworks.jimmy.controller.BookShelfController.get(java.lang.String)
+2016-01-13 18:00:37.998  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[PUT]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.update(java.lang.String,com.thoughtworks.jimmy.entity.BookEntity)
+2016-01-13 18:00:37.998  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[DELETE]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.delete(java.lang.String)
+2016-01-13 18:00:37.998  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books],methods=[POST]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.save(com.thoughtworks.jimmy.entity.BookEntity)
+2016-01-13 18:00:37.999  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.query()
+2016-01-13 18:00:38.008  INFO 8651 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@2af55b3d
+2016-01-13 18:00:38.012  INFO 8651 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-01-13 18:00:38.012  INFO 8651 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-01-13 18:00:38.012  INFO 8651 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.category_code as category3_0_0_, bookentity0_.price as price4_0_0_, bookentity0_.title as title5_0_0_ from wo_book bookentity0_ where bookentity0_.isbn=?
+Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.category_code as category3_0_0_, bookentity0_.price as price4_0_0_, bookentity0_.title as title5_0_0_ from wo_book bookentity0_ where bookentity0_.isbn=?
+Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.category_code as category3_0_0_, bookentity0_.price as price4_0_0_, bookentity0_.title as title5_0_0_ from wo_book bookentity0_ where bookentity0_.isbn=?
+2016-01-13 18:00:38.024  INFO 8651 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test context [DefaultTestContext@958efe6 testClass = BookShelfControllerIntegrationTest, testInstance = com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest@60d766c9, testMethod = should_not_be_able_to_update_book_to_shelf_when_isbn_is_not_same@BookShelfControllerIntegrationTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@48cc5e65 testClass = BookShelfControllerIntegrationTest, locations = '{}', classes = '{class com.thoughtworks.jimmy.SpringBootWebApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]].
+2016-01-13 18:00:38.027  INFO 8651 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@958efe6 testClass = BookShelfControllerIntegrationTest, testInstance = com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest@18bb84c5, testMethod = should_be_able_to_update_book_to_shelf@BookShelfControllerIntegrationTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@48cc5e65 testClass = BookShelfControllerIntegrationTest, locations = '{}', classes = '{class com.thoughtworks.jimmy.SpringBootWebApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@7cf92599]; rollback [true]
+2016-01-13 18:00:38.030  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/title/{title}],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.queryByTitle(java.lang.String)
+2016-01-13 18:00:38.031  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/category/{categoryName}],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.queryByCategoryName(java.lang.String)
+2016-01-13 18:00:38.031  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[GET]}&quot; onto public com.thoughtworks.jimmy.entity.BookEntity com.thoughtworks.jimmy.controller.BookShelfController.get(java.lang.String)
+2016-01-13 18:00:38.032  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[PUT]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.update(java.lang.String,com.thoughtworks.jimmy.entity.BookEntity)
+2016-01-13 18:00:38.032  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[DELETE]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.delete(java.lang.String)
+2016-01-13 18:00:38.032  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books],methods=[POST]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.save(com.thoughtworks.jimmy.entity.BookEntity)
+2016-01-13 18:00:38.032  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.query()
+2016-01-13 18:00:38.042  INFO 8651 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@6134910f
+2016-01-13 18:00:38.045  INFO 8651 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-01-13 18:00:38.046  INFO 8651 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-01-13 18:00:38.046  INFO 8651 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.category_code as category3_0_0_, bookentity0_.price as price4_0_0_, bookentity0_.title as title5_0_0_ from wo_book bookentity0_ where bookentity0_.isbn=?
+Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.category_code as category3_0_0_, bookentity0_.price as price4_0_0_, bookentity0_.title as title5_0_0_ from wo_book bookentity0_ where bookentity0_.isbn=?
+Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.category_code as category3_0_0_, bookentity0_.price as price4_0_0_, bookentity0_.title as title5_0_0_ from wo_book bookentity0_ where bookentity0_.isbn=?
+2016-01-13 18:00:38.058  INFO 8651 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test context [DefaultTestContext@958efe6 testClass = BookShelfControllerIntegrationTest, testInstance = com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest@18bb84c5, testMethod = should_be_able_to_update_book_to_shelf@BookShelfControllerIntegrationTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@48cc5e65 testClass = BookShelfControllerIntegrationTest, locations = '{}', classes = '{class com.thoughtworks.jimmy.SpringBootWebApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]].
+2016-01-13 18:00:38.061  INFO 8651 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@958efe6 testClass = BookShelfControllerIntegrationTest, testInstance = com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest@1edc9570, testMethod = should_find_category_of_the_book_when_given_book_isbn@BookShelfControllerIntegrationTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@48cc5e65 testClass = BookShelfControllerIntegrationTest, locations = '{}', classes = '{class com.thoughtworks.jimmy.SpringBootWebApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@7cf92599]; rollback [true]
+2016-01-13 18:00:38.064  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/title/{title}],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.queryByTitle(java.lang.String)
+2016-01-13 18:00:38.065  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/category/{categoryName}],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.queryByCategoryName(java.lang.String)
+2016-01-13 18:00:38.065  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[GET]}&quot; onto public com.thoughtworks.jimmy.entity.BookEntity com.thoughtworks.jimmy.controller.BookShelfController.get(java.lang.String)
+2016-01-13 18:00:38.065  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[PUT]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.update(java.lang.String,com.thoughtworks.jimmy.entity.BookEntity)
+2016-01-13 18:00:38.066  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[DELETE]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.delete(java.lang.String)
+2016-01-13 18:00:38.066  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books],methods=[POST]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.save(com.thoughtworks.jimmy.entity.BookEntity)
+2016-01-13 18:00:38.066  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.query()
+2016-01-13 18:00:38.076  INFO 8651 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@6f144f4b
+2016-01-13 18:00:38.080  INFO 8651 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-01-13 18:00:38.080  INFO 8651 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-01-13 18:00:38.080  INFO 8651 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+2016-01-13 18:00:38.085  INFO 8651 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test context [DefaultTestContext@958efe6 testClass = BookShelfControllerIntegrationTest, testInstance = com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest@1edc9570, testMethod = should_find_category_of_the_book_when_given_book_isbn@BookShelfControllerIntegrationTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@48cc5e65 testClass = BookShelfControllerIntegrationTest, locations = '{}', classes = '{class com.thoughtworks.jimmy.SpringBootWebApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]].
+2016-01-13 18:00:38.091  INFO 8651 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@958efe6 testClass = BookShelfControllerIntegrationTest, testInstance = com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest@45ffe9cf, testMethod = should_search_book_by_category_name@BookShelfControllerIntegrationTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@48cc5e65 testClass = BookShelfControllerIntegrationTest, locations = '{}', classes = '{class com.thoughtworks.jimmy.SpringBootWebApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@7cf92599]; rollback [true]
+2016-01-13 18:00:38.095  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/title/{title}],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.queryByTitle(java.lang.String)
+2016-01-13 18:00:38.095  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/category/{categoryName}],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.queryByCategoryName(java.lang.String)
+2016-01-13 18:00:38.095  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[GET]}&quot; onto public com.thoughtworks.jimmy.entity.BookEntity com.thoughtworks.jimmy.controller.BookShelfController.get(java.lang.String)
+2016-01-13 18:00:38.096  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[PUT]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.update(java.lang.String,com.thoughtworks.jimmy.entity.BookEntity)
+2016-01-13 18:00:38.096  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books/{isbn}],methods=[DELETE]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.delete(java.lang.String)
+2016-01-13 18:00:38.097  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books],methods=[POST]}&quot; onto public void com.thoughtworks.jimmy.controller.BookShelfController.save(com.thoughtworks.jimmy.entity.BookEntity)
+2016-01-13 18:00:38.097  INFO 8651 --- [    Test worker] ilder$StaticRequestMappingHandlerMapping : Mapped &quot;{[/books],methods=[GET]}&quot; onto public java.lang.Iterable&lt;com.thoughtworks.jimmy.entity.BookEntity&gt; com.thoughtworks.jimmy.controller.BookShelfController.query()
+2016-01-13 18:00:38.111  INFO 8651 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@135920d2
+2016-01-13 18:00:38.117  INFO 8651 --- [    Test worker] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2016-01-13 18:00:38.118  INFO 8651 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2016-01-13 18:00:38.118  INFO 8651 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+Hibernate: select categoryen0_.code as code1_1_0_, categoryen0_.description as descript2_1_0_, categoryen0_.name as name3_1_0_ from wo_category categoryen0_ where categoryen0_.code=?
+Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.category_code as category3_0_0_, bookentity0_.price as price4_0_0_, bookentity0_.title as title5_0_0_ from wo_book bookentity0_ where bookentity0_.isbn=?
+Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.category_code as category3_0_0_, bookentity0_.price as price4_0_0_, bookentity0_.title as title5_0_0_ from wo_book bookentity0_ where bookentity0_.isbn=?
+Hibernate: select bookentity0_.isbn as isbn1_0_0_, bookentity0_.author as author2_0_0_, bookentity0_.category_code as category3_0_0_, bookentity0_.price as price4_0_0_, bookentity0_.title as title5_0_0_ from wo_book bookentity0_ where bookentity0_.isbn=?
+Hibernate: insert into wo_category (description, name, code) values (?, ?, ?)
+Hibernate: insert into wo_book (author, category_code, price, title, isbn) values (?, ?, ?, ?, ?)
+Hibernate: insert into wo_book (author, category_code, price, title, isbn) values (?, ?, ?, ?, ?)
+Hibernate: insert into wo_book (author, category_code, price, title, isbn) values (?, ?, ?, ?, ?)
+Hibernate: select categoryen0_.code as code1_1_, categoryen0_.description as descript2_1_, categoryen0_.name as name3_1_ from wo_category categoryen0_ where categoryen0_.name=?
+Hibernate: select bookentity0_.isbn as isbn1_0_, bookentity0_.author as author2_0_, bookentity0_.category_code as category3_0_, bookentity0_.price as price4_0_, bookentity0_.title as title5_0_ from wo_book bookentity0_ where bookentity0_.category_code=?
+2016-01-13 18:00:38.356  INFO 8651 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test context [DefaultTestContext@958efe6 testClass = BookShelfControllerIntegrationTest, testInstance = com.thoughtworks.jimmy.controller.BookShelfControllerIntegrationTest@45ffe9cf, testMethod = should_search_book_by_category_name@BookShelfControllerIntegrationTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@48cc5e65 testClass = BookShelfControllerIntegrationTest, locations = '{}', classes = '{class com.thoughtworks.jimmy.SpringBootWebApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.SpringApplicationContextLoader', parent = [null]]].
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.6</a> at Jan 13, 2016 6:00:39 PM</p>
+</div>
+</div>
+</body>
+</html>

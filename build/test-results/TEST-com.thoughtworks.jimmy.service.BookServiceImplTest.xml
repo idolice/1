@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.thoughtworks.jimmy.service.BookServiceImplTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-01-13T10:00:38" hostname="idolice-AWO-XiaoAi" time="0.135">
+  <properties/>
+  <testcase name="should_throw_exception_when_tag_not_found" classname="com.thoughtworks.jimmy.service.BookServiceImplTest" time="0.132"/>
+  <testcase name="should_find_book_by_tag_when_given_valid_tag" classname="com.thoughtworks.jimmy.service.BookServiceImplTest" time="0.002"/>
+  <testcase name="should_find_book_by_title_when_given_title" classname="com.thoughtworks.jimmy.service.BookServiceImplTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
